@@ -1,0 +1,788 @@
+header{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../images/slider-image3.jpg);
+    background-position:top;
+    background-size: cover;
+    justify-content: center;
+}
+
+.top-head{
+    width: 90%;
+    height:40% ;
+    display: flex;
+
+
+
+}
+
+
+
+.brand{
+    width: 20%;
+    height: 25%;
+}
+
+.brand>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: black;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 2em;
+    color: white;
+}
+.brand>a>span{
+    color: red;
+}
+
+nav{
+    width: 50%;
+    height: 25%;
+    
+}
+
+nav>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+nav>ul>li{
+    height: 100%;
+    width: 100%;
+    
+}
+nav>ul>li>a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    transition: 1s;
+    color: white;
+    padding-bottom: 4%;
+}
+nav>ul>li>a:hover{
+    color: red;
+}
+
+nav>ul>li>ul{
+    background-color:rgba(255, 0, 0, 0.381);
+    height:0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.4s;
+    overflow: hidden;
+}
+nav>ul>li:hover>ul{
+    height: 100px;
+}
+nav>ul>li>ul>li{
+    width: 100%;
+    height:100%;    
+}
+nav>ul>li>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+nav>ul>li>ul>li>a:hover{
+    background-color: red;
+}
+
+nav>ul>li:nth-child(4)>ul{
+    background-color:rgba(255, 0, 0, 0.381);
+    height: 0px;
+    width: 145px;
+    transition: 0.4s;
+    
+}
+nav>ul>li:nth-child(4):hover>ul{
+    height: 185px;
+}
+
+nav>ul>li:nth-child(4)>ul>li{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.call-now{
+    width: 30%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    margin-top: 8px;
+
+}
+
+/* .call{
+    margin-bottom:20px;
+    margin-right: 20px;
+}
+
+.call>a{
+    color:black;
+    transition: 1s;
+    font-size: 18px;
+
+
+}
+.call:hover>a{
+    color: red;
+} */
+
+
+
+.btn{
+    width: 150px;
+    height: 45px;
+    background-color: red;
+    border: 2px solid black;
+    transition: 1s;
+
+}
+
+.btn>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.btn:hover{
+    background-color:rgba(5, 5, 5, 0.888);
+    
+    
+}
+.btn:hover>a{
+    color:white;
+
+    
+}
+
+.bottom-head{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white;
+}
+
+.bottom-head>a{
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.8s;
+}
+
+.bottom-head>a:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+
+
+
+/* end header ****************************************************************************************************************** */
+
+
+
+#about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bigbox{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+
+.right-box{
+
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/about-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.left-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.read{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    color: #bfbdbd;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 10%;
+    
+}
+
+.title{
+    width: 90%;
+    height: 20%;
+    font-size: 1.5em;
+    color: #353535;
+    
+    
+
+}
+
+.matn{
+    width: 90%;
+    height: 40%;
+    color: #bfbdbd;
+    font-size: 15px;
+    
+    
+}
+
+
+
+/* end about***************************************************************************************************************** */
+
+
+#chef{
+    width: 100%;
+    height: 120vh;
+    justify-content: center;    
+    background-color:rgb(246, 242, 242);
+}
+
+
+.top-chef{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-chef>h4{
+    font-size: 14px;
+    color: #bfbdbd;
+    margin-top: 20px;
+}
+.top-chef>h2{
+    font-size: 2em;
+    color: #454545;
+}
+
+
+
+.pic-chef{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.chef-1,
+.chef-2,
+.chef-3{
+    width: 30%;
+    height: 100%;
+}
+
+
+
+.picture-1{
+   width: 100%;
+   height: 85%;
+   background-image: url(../images/team-image1.jpg);
+   background-position:top;
+   background-size: cover;
+  transition: 1s;
+
+}
+
+.picture-1::after{
+    width: 100%;
+    height:0;
+    content: 'New Catherine';
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    
+}
+.picture-1:hover::after{
+    height: 100%;
+    opacity: 1;
+}
+.picture-1:hover{
+    background-position:bottom;
+ }
+
+.picture-2{
+    width: 100%;
+    height: 85%;
+    background-image: url(../images/team-image2.jpg);
+   background-position:top;
+   background-size: cover;
+   transition: 1s;
+ 
+ }
+ .picture-2::after{
+    width: 100%;
+    height:0;
+    content: 'Lindsay Perlen';
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    
+}
+.picture-2:hover::after{
+    height: 100%;
+    opacity: 1;
+}
+.picture-2:hover{
+    background-position:bottom;
+ }
+
+ .picture-3{
+    width: 100%;
+    height: 85%;
+    background-image: url(../images/team-image3.jpg);
+    background-position:top;
+    background-size: cover;
+    transition: 1s;
+ 
+ }
+ .picture-3::after{
+    width: 100%;
+    height:0;
+    content: 'Isabella Grace';
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    
+}
+.picture-3:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.picture-3:hover{
+    background-position:bottom;
+ }
+
+ .tag-1,
+ .tag-2,
+ .tag-3{
+    width: 100%;
+    height: 15%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color:#454545;
+    font-weight: bold;
+ }
+
+ /* end chef ****************************************************************************************************************** */
+
+#menu{
+    width: 100%;
+    height: 120vh;
+    justify-content: center;
+}
+
+.top-menu{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.top-menu>h4{
+    font-size: 14px;
+    color: #bfbdbd;
+    margin-top: 20px;
+}
+.top-menu>h2{
+    font-size: 2em;
+    color: #454545;
+}
+
+
+.pic-menu{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+
+.pic-menu>a{
+    width: 33.3%;
+    height: 50%;
+    position: relative;
+}
+.pic-menu>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+
+
+}
+
+
+
+.pic-menu>a>div{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.658);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+
+    
+}
+
+
+.pic-menu>a:nth-child(1):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.pic-menu>a:nth-child(2):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.pic-menu>a:nth-child(3):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.pic-menu>a:nth-child(4):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.pic-menu>a:nth-child(5):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+.pic-menu>a:nth-child(6):hover>img{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.pic-menu>a:nth-child(1):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 105%;
+    position: absolute;
+    bottom: -5%;
+}
+.pic-menu>a:nth-child(2):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 110%;
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+.pic-menu>a:nth-child(3):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 105%;
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+.pic-menu>a:nth-child(4):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 105%;
+    position: absolute;
+    bottom: -5%;
+    
+}
+.pic-menu>a:nth-child(5):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 110%;
+    position: absolute;
+    bottom: -5%;
+    left: -5.1%;
+}
+.pic-menu>a:nth-child(6):hover>div{
+    opacity:1;
+    z-index: 3;
+    width: 105%;
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+}
+
+
+
+
+/* end menu ************************************************************************************************************* */
+
+
+#contact{
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.big-box-2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    
+}
+
+.left-box-2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right-box-2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+
+}
+
+.title-2{
+    width: 100%;
+    height: 15%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    height: 66%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    
+
+}
+
+form>input:nth-child(1){
+    width: 48%;
+    height: 20%;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+form>input:nth-child(2){
+    width: 48%;
+    height: 20%;
+    border-bottom: 2px black;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+form>input:nth-child(3){
+    width: 97%;
+    height: 20%;
+    border-bottom: 2px black;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+form>textarea{
+    width: 97%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+}
+
+
+.right-box-2>a{
+    width: 100%;
+    height: 10%;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+.right-box-2>a:hover{
+    background-color: black;
+}
+
+
+
+/* end contact ********************************************************************************************************* */
+
+footer{
+    justify-content: center;
+    height: 60vh;
+}
+
+.big-box-3{
+    height: 100%;
+    width: 90%;
+    display: flex;
+
+    align-items: center;
+}
+
+.big-box-3>div{
+    width: 30%;
+    height: 70%;
+background-color: #bfbdbd9d;
+    margin-left: 5px;
+}
+
+.big-box-3>div>p{
+    color:black;
+    font-size: 15px;
+}
+
+.big-box-3>div:nth-child(1),
+.big-box-3>div:nth-child(2),
+.big-box-3>div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.big-box-3>div:nth-child(3){
+
+    background-image: url(../images/footer-open-hour-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+
+}
+.big-box-3>div:nth-child(3)>h3,
+h4,
+h2{
+    position: relative;
+    z-index: 10;
+}
+
+ .big-box-3>div:nth-child(3)::after{
+    content: "";
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    
+ }
+ 
+    
+
+
+
+
+
+
+
+
+
+ 
